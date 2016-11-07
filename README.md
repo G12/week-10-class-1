@@ -1,2 +1,6 @@
-# week-10-class-1
-In Class Material
+AGENDA:
+- Audio/Video Converting Between Formats
+- HTML picture element
+- CSS transitions
+- CSS transformations
+- CSS animations
