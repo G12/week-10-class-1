@@ -1,0 +1,35 @@
+.test-transitions {
+    border: 10px solid royalblue;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    
+    
+    /* LONG SYNTAX:*/
+    /*
+    transition: background-color border;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in;*/
+    
+    
+    /* SHORT SYNTAX:*/
+    /* 
+    transition: background-color 1000ms ease-in, border 1000ms ease-in; */
+    
+    /* If you want to affect all CSS properties, just us "all" */
+    transition: all 1000ms ease-in;
+}
+
+.test-transitions:hover {
+    border: 10px solid #000;
+    background-color: #444;
+}
+
+.test-transitions:active {
+    border: 10px solid crimson;
+    background-color: darkred;
+}

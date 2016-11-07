@@ -1,0 +1,21 @@
+
+figure, figcaption, img {
+    border: 1px solid #CCC;
+    padding: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*
+@media rule and media attribute in <picture> tag don't exlude each other - they work together. */
+@media screen and (min-width: 60rem) {
+    img {
+        width: 50%;
+        height: auto;
+    } 
+}

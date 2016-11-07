@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+}
+
+.container figure {
+    display: inline-block;
+    margin: 20% 0 0 0;
+}
+
+.container figure img {
+    width: 25%;
+    height: auto;
+    /*
+    transition: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in; */
+    
+    transition: transform 500ms ease-in, border-radius 500ms ease-in;
+}
+
+.container figure img:hover {
+    transform: rotate(360deg) scale(4, 4);
+    border-radius: 50%;
+}

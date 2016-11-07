@@ -1,0 +1,52 @@
+/*
+Create the function that will do the animation: */
+/*
+@keyframes cool-animation {
+    
+    keyframe-1 {
+        
+    } 
+    keyframe-2 {
+        
+    }
+    .
+    .
+    . 
+}*/
+
+@keyframes cool-animation {
+
+    0% {
+        transform: scale(1, 1); 
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+.container {
+    text-align: center;
+}
+
+.container figure {
+    margin: 20% 0 0 0;
+    display: inline-block;
+}
+
+.container figure img {
+    width: 50%;
+    height: auto;
+    /*
+    animation-name: cool-animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; */
+    
+    /* 
+    Do everything in 1 CSS declaration: */
+    animation: cool-animation 1s infinite;
+}
